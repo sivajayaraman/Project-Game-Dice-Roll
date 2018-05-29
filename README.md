@@ -8,3 +8,4 @@ Rules:
   4)The Dice ranges from 1 to 6
   5)At end of everyones turn,their score is updated and checked whether the maximum point is reached.
   6)If reached,The player is declared as Winner.
+Run the code in any editor,that supports Python 3.  
