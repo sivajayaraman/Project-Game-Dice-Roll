@@ -7,6 +7,7 @@ def dicegame(total_players,maximum_points):
 	position=0
 	for i in range(0,total_players):
 		points.append(0)
+	print("Initiating game basics.....")
 	if total_players==1:
 		print("As you cannot play this game alone,I will play against you!")
 		while a_scores<=maximum_points and cpu<=maximum_points:
