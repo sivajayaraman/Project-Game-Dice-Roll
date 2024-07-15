@@ -9,7 +9,15 @@ def dicegame(total_players,maximum_points):
 		points.append(0)
 	if total_players==1:
 		print("As you cannot play this game alone,I will play against you!")
+		print("As you cannot play this game alone,I will play against you!")
+		print("As you cannot play this game alone,I will play against you!")
 		while a_scores<=maximum_points and cpu<=maximum_points:
+			status=input("Your turn to roll the dice.Enter 1 to continue and 0 to exit.")
+			status=input("Your turn to roll the dice.Enter 1 to continue and 0 to exit.")
+			status=input("Your turn to roll the dice.Enter 1 to continue and 0 to exit.")
+			status=input("Your turn to roll the dice.Enter 1 to continue and 0 to exit.")
+			status=input("Your turn to roll the dice.Enter 1 to continue and 0 to exit.")
+			status=input("Your turn to roll the dice.Enter 1 to continue and 0 to exit.")
 			status=input("Your turn to roll the dice.Enter 1 to continue and 0 to exit.")
 			if status==1:
 				dice=random.randint(1,6)
@@ -31,10 +39,24 @@ def dicegame(total_players,maximum_points):
 				break
 			if a_scores>cpu:
 				print("You are leading at the moment!")
+				print("You are leading at the moment!")
+				print("You are leading at the moment!")
+				print("You are leading at the moment!")
+				print("You are leading at the moment!")
+				print("You are leading at the moment!")
 			elif a_scores<cpu:
 				print("Im leading at the moment!")
+				print("Im leading at the moment!")
+				print("Im leading at the moment!")
+				print("Im leading at the moment!")
+				print("Im leading at the moment!")
+				print("Im leading at the moment!")
 			else:
+				print("You are giving a good fight lad!")
 				print("You are giving a good fight lad!")					
+				print("You are giving a good fight lad!")
+				print("You are giving a good fight lad!")
+				print("You are giving a good fight lad!")
 		if a_scores>cpu:
 			print("You Win!")
 		else:
@@ -65,9 +87,16 @@ def dicegame(total_players,maximum_points):
 total_players=input("Enter Total Number of Players   :")
 if total_players<=0:
 	print("Ivalid number of players.I will assume Total number of players as 1")
+	print("Ivalid number of players.I will assume Total number of players as 1")
+	print("Ivalid number of players.I will assume Total number of players as 1")
+	print("Ivalid number of players.I will assume Total number of players as 1")
+	print("Ivalid number of players.I will assume Total number of players as 1")
 	total_players=1
 maximum_points=input("Enter Maximum Points of the game:")
 if maximum_points<0:
+	print("Invalid Maximum Points.So I will assume Maximum Points as 10")
+	print("Invalid Maximum Points.So I will assume Maximum Points as 10")
+	print("Invalid Maximum Points.So I will assume Maximum Points as 10")
 	print("Invalid Maximum Points.So I will assume Maximum Points as 10")
 	maximum_points=10
 dicegame(total_players,maximum_points)
