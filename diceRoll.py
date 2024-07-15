@@ -9,8 +9,6 @@ def dicegame(total_players,maximum_points):
 		points.append(0)
 	if total_players==1:
 		print("As you cannot play this game alone,I will play against you!")
-		print("As you cannot play this game alone,I will play against you!")
-		print("As you cannot play this game alone,I will play against you!")
 		while a_scores<=maximum_points and cpu<=maximum_points:
 			status=input("Your turn to roll the dice.Enter 1 to continue and 0 to exit.")
 			if status==1:
