@@ -34,7 +34,7 @@ def dicegame(total_players,maximum_points):
 			elif a_scores<cpu:
 				print("Im leading at the moment!")
 			else:
-				print("You are giving a good fight lad!")					
+				print("You are giving a good fight lad!")
 		if a_scores>cpu:
 			print("You Win!")
 		else:
